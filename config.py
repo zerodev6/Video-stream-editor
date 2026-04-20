@@ -8,7 +8,7 @@ class Config:
     ADMIN_SESSION_STRING = os.environ.get("ADMIN_SESSION_STRING", "")
     MONGO_URI = os.environ.get("MONGO_URI", "mongodb://...")
     
-    ADMINS = [12345678, 87654321] # List of Admin User IDs
+    ADMINS = [8498741978, 87654321] # List of Admin User IDs
     FORCE_SUB_CHANNELS = ["zerodev2", "mvxyoffcail"]
     MAX_FILE_SIZE = 4 * 1024 * 1024 * 1024 
     DOWNLOAD_LOCATION = "./downloads"
