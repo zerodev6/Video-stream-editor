@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  video_editor_bot:
+    build: .
+    container_name: stream_editor_v2
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./downloads:/app/downloads
+    # Ensures the logs are printed in real-time
+    environment:
+      - PYTHONUNBUFFERED=1
+      
